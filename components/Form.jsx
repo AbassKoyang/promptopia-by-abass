@@ -20,11 +20,6 @@ const Form = ({type, post, setPost, submitting, handleSubmit}) => {
         required
         className='form_textarea'
         />
-      </form>
-      <form action="" 
-      className='mt-10 w-full smax-w-2xl flex flex-col gap-7 glassmorphism'
-      onSubmit={handleSubmit}
-      >
         <label htmlFor="">
           <span className='font-satoshi font-semibold text-base text-gray-700'>
             Tag 
